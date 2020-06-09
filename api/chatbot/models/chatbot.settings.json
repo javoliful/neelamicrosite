@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chatbots",
+  "info": {
+    "name": "Chatbot"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "steps": {
+      "type": "json",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

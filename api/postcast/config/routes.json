@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/postcasts",
+      "handler": "postcast.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/postcasts/count",
+      "handler": "postcast.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/postcasts/:id",
+      "handler": "postcast.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/postcasts",
+      "handler": "postcast.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/postcasts/:id",
+      "handler": "postcast.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/postcasts/:id",
+      "handler": "postcast.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
